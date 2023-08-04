@@ -38,9 +38,10 @@ def calendar_refresh(driver):
             if value == 1:
                 slot.click()
                 time.sleep(5)
-                elem_xpath_text(driver, 'Cancel')
+                elem_xpath_text(driver, 'OK')
                 time.sleep(1)
-                break
+                return 1
+    return 0
 
 def auth_routine(username, password, driver):
     title = driver.title
@@ -72,8 +73,7 @@ def bot_routine(username, password, project, nb_slot):
     elem_xpath_text(driver, 'Subscribe to defense')
     x = 0
     while x < nb_slot:
-        calendar_refresh(driver)
-        x += 1
+        x += calendar_refresh(driver)
     time.sleep(1)
     exit_routine(username, driver)
 
