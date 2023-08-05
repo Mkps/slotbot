@@ -34,17 +34,16 @@ Le script vous demandera les informations suivantes :
 SlotBot utilisera alors Selenium pour ouvrir le navigateur Chrome/Chromium, se connecter au système de réservation de l'intra et réservera le premier creneaux disponible le jour meme.
 SlotBot continuera a rafraichir la page jusqu'a ce que le nombre de créneaux voulu soit atteint.
 
-## Auteur
-Ce script a été créé par Alexis LOUBIERE. 42id: aloubier
-
-N'hésitez pas à améliorer ce script selon vos besoins et faites moi part de tout retour via github ou via discord/slack.
-
-## Licence
-
-Ce projet est sous licence GPLv3.0. Consultez le fichier LICENSE pour plus d'informations.
-
 ## Remarque
 
 Assurez-vous de respecter les conditions d'utilisation de l'intra et de 42.fr. L'utilisation de bots pour automatiser des tâches en ligne peut être soumise à des restrictions ou des interdictions dans certains cas. 
 Utilisez ce script à vos risques et périls, et prenez les mesures appropriées pour respecter les politiques du système concerné.
 
+## Auteur
+Ce script a été créé par Alexis LOUBIERE. 42id: aloubier
+
+N'hésitez pas à améliorer ce script selon vos besoins et faites moi part de vos retours via github ou discord/slack.
+
+## Licence
+
+Ce projet est sous licence GPLv3.0. Consultez le fichier LICENSE pour plus d'informations.
