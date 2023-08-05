@@ -26,10 +26,10 @@ SlotBot est un bot Python qui automatise le processus de réservation des créne
 python slotbot.py
 ```
 Le script vous demandera les informations suivantes :
--Nom du projet : Entrez le nom du projet pour lequel vous souhaitez organiser les corrections.
--Nombre de créneaux demandés : Entrez le nombre de créneaux que vous souhaitez réserver pour les corrections.
--Nom d'utilisateur : Saisissez votre nom d'utilisateur pour vous connecter au système de réservation.
--Mot de passe : Saisissez votre mot de passe associé à votre nom d'utilisateur.
+- Nom du projet : Entrez le nom du projet pour lequel vous souhaitez organiser les corrections.
+- Nombre de créneaux demandés : Entrez le nombre de créneaux que vous souhaitez réserver pour les corrections.
+- Nom d'utilisateur : Saisissez votre nom d'utilisateur pour vous connecter au système de réservation.
+- Mot de passe : Saisissez votre mot de passe associé à votre nom d'utilisateur.
 
 SlotBot utilisera alors Selenium pour ouvrir le navigateur Chrome/Chromium, se connecter au système de réservation de l'intra et réservera le premier creneaux disponible le jour meme.
 SlotBot continuera a rafraichir la page jusqu'a ce que le nombre de créneaux voulu soit atteint.
