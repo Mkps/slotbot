@@ -47,3 +47,4 @@ N'hésitez pas à améliorer ce script selon vos besoins et faites moi part de v
 ## Licence
 
 Ce projet est sous licence GPLv3.0. Consultez le fichier LICENSE pour plus d'informations.
+*Working on 42systems 24/08/23*
